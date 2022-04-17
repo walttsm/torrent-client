@@ -6,6 +6,7 @@ authors = ["Walter Marinho <waltersmarinho@edu.unifil.br>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+bitstring = "^3.1.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
