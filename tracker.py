@@ -1,7 +1,7 @@
 import os
 import sys
 
-import bencode
+import bencodepy as bencode
 import requests
 
 class Tracker:
