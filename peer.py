@@ -21,7 +21,7 @@ class Peer(threading.Thread):
       
       
     """
-    Conecta ao endereço
+    Conecta ao peer
     """    
     def connect(self):
         try:
@@ -31,7 +31,7 @@ class Peer(threading.Thread):
             
             
     """
-    Desconecta do endereço
+    Desconecta do peer
     """
     def disconnect(self):
         self.socket.close()
@@ -39,7 +39,7 @@ class Peer(threading.Thread):
         sys.exit()
         
     """
-    Roda o programa
+    Inicia comunicação com peer
     """
     def run(self):
         self.connect()
