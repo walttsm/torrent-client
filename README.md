@@ -3,7 +3,7 @@
 Este repositório contém um cliente torrent simples para ser executado em terminal.
 
 ## Executando o programa
-Para executar o programa você deve ter o (poetry)[https://python-poetry.org/] instalado.
+Para executar o programa você deve ter o [poetry](https://python-poetry.org/) instalado.
 
 Em seguida, na pasta do projeto execute o comando abaixo para criar um ambiente virtual python de execução do projeto:
 
